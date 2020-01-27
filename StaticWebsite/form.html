@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+ <html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>TechnoCity</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+	</head>
+	<body>
+<header>
+	<h1 style="font-family:verdana;">Techno City</h1>
+	<nav id="innerpagemenu">
+	<ul>
+	     <li><a href="index.html" title="Back to Home">Homepage</a></li>
+		 <li><a href="news.html"  title="Click for breaking news">News</a></li>
+		 <li><a href="project.html" title="Go to Project Gallery">Projects</a></li>
+		 <li><a href="form.html" title="Connect us">Contact us</a></li>
+		 <li><a href="about.html"  title="All about TechnoCity">About</a></li>
+	   </ul>
+	</nav>
+	<hr>
+</header>
+
+<main>
+<div class="container">
+ <form action="mailto:mamedov1601@gmail.com" method="post" enctype="text/plain">
+      <h2>Fill the form below.</h2>
+       <h4>In case you have questions or suggestions let us know : </h4>
+	  
+     <label for="fname">First Name</label>
+     <input type="text" id="fname" name="firstname" placeholder="John..">
+	 
+	 <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Robson..">
+	
+	 <label for="e-mail">E-mail adress</label>
+    <input type="text" id="e-mail" pattern="[^ @]*@[^ @]*" placeholder="JohnRobson@sample.com">
+		
+	<label> Gender </label>
+<br/><br/>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other
+ <br/><br/> 
+  <label for="type">Type</label>  
+	<select id="type" name="Choices">
+      <option value="con">Contact</option>
+      <option value="rep">Report</option>
+      <option value="sug">Suggestion</option>
+	  <option value="oth">Other</option>
+    </select>
+
+	<label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	
+	<label>
+      <input type="checkbox" checked="checked" name="subscribe"> Sign up for Techno City Newsletter <br/><br/>
+    </label>
+
+
+    <input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+
+
+  </form>
+</div>
+</main>
+
+<hr>
+
+
+
+<footer>
+<address>
+<p>Author: TechnoTeam (<a href="mailto:mamedov1601@gmail.com)">mamedov1601@gmail)</a><br>
+  Address: Hungary, H-1135 Budapest, Kerekes u. XII</p>
+</address>
+
+</footer>
+
+
+	</body>
+</html>

@@ -1,0 +1,24 @@
+/* large text for people with visual impairement */
+
+@import url('base.css');
+body {
+	font-size:2em;
+	
+}
+
+a#largetext {display: none;}
+a#normaltext {display: block;}
+
+header, main, footer {
+	width:90%;
+	max-width:1200px;
+	}
+	
+nav#forvisualimpairment { width:400px;}	
+
+nav#forvisualimpairment span {
+	background-image:url("icons.png");
+	background-position:-330px 0px;
+	
+		
+}
