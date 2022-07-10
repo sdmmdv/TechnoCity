@@ -1,7 +1,9 @@
-# Static_WebSite
+# TechnoCity News
 
-Static web page in the framework of WebDev Course (2018 / Spring)
+## Demo
 
-Used HTML, CSS, JS https://en.wikipedia.org/wiki/Static_web_page
+[TechnoCity](https://technocity-95805.web.app/)
 
+Static Web created in the framework of WebDev Course (2018 / Spring)
 
+Tech stack: HTML, CSS, JS
